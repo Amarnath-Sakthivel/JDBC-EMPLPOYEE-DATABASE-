@@ -110,9 +110,9 @@ public class SqlDemo {
 
 
     public static Connection dbConnection() throws Exception{
-        String url = "jdbc:mysql://localhost:3306/wipro";
+        String url = "jdbc:mysql://localhost:3306/DatabaseName";
         String uname = "root";
-        String password = "abdulkalam";
+        String password = "********";
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection(url, uname, password);
